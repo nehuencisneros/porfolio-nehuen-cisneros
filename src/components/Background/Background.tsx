@@ -6,8 +6,6 @@ import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSli
 
 export const Background: React.FC<{}> = () => {
    const particlesInit = useCallback(async (engine: Engine) => {
-      console.log(engine);
-
       // you can initialize the tsParticles instance (engine) here, adding custom shapes or presets
       // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
       // starting from v2 you can add only the features you need reducing the bundle size
@@ -16,7 +14,7 @@ export const Background: React.FC<{}> = () => {
    }, []);
 
    const particlesLoaded = useCallback(async (container: Container | undefined) => {
-      await console.log(container);
+
    }, []);
 
    return (
@@ -27,7 +25,7 @@ export const Background: React.FC<{}> = () => {
          options={{
             background: {
                color: {
-                  value: "#18191c",
+                  value: "#172a45",
                },
             },
             fpsLimit: 60,
