@@ -1,0 +1,41 @@
+.divContainer{
+   display: flex; 
+   justify-content: center;
+}
+
+.divTerminalContainer{
+   width: 60%;
+}
+
+.terminal{
+   margin-top: 2rem;
+   background-color: #D32F2F;
+   height: 3rem;
+   padding-top: 0.5rem;
+   border-top-left-radius: 18px;
+   border-top-right-radius: 18px;
+}
+
+.pestana{
+   display: flex;
+   background: linear-gradient(to bottom right, rgb(35, 45, 65) , rgb(34, 44, 64));
+   width: 15%;
+   height: 2.5rem;
+   margin-left: 1.5rem;
+   border-top-left-radius: 9px;
+   border-top-right-radius: 9px;
+   font-family: Chakra Petch;
+   justify-content: space-between;
+   align-items:center;
+   padding-inline: 0.5rem;
+}
+
+.cajaTerminal{
+   background: linear-gradient(to bottom right, rgb(35, 45, 65) , rgb(20, 25, 45));
+   border-right: solid 3px #D32F2F;
+   border-left: solid 3px #D32F2F;
+   border-bottom: solid 3px #D32F2F;
+   height: 45rem;
+   border-bottom-left-radius: 18px;
+   border-bottom-right-radius: 18px;
+}

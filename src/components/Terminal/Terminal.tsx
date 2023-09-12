@@ -1,21 +1,24 @@
 import { Box, AppBar, Button, Toolbar, Container, Grid, Stack, Badge } from "@mui/material";
 import React from "react";
 import { NavBar } from "../NavBar/NavBar";
+import style from "./Terminal.module.css";
 
 export const Terminal: React.FC<{}> = () => {
 
    return (
       <div>
          <NavBar />
-         <div style={{display: "flex", justifyContent: "center",}}>
-            <div style={{
-               backgroundColor: "#17202A",
-               border: "solid 3px #D32F2F",
-               height: "50rem",
-               width: "60%",
-               marginTop: "2rem",
-               borderRadius: "18px"
-            }} />
+         <div className={style.divContainer}>
+            <div className={style.divTerminalContainer}>
+               <div className={style.terminal}>
+                  <div className={style.pestana}>
+                     <h4>Terminal</h4>
+                     <h3>X</h3>
+                  </div>
+               </div>
+               <div className={style.cajaTerminal}>
+               </div>
+            </div>
          </div>
       </div>
    )
