@@ -1,5 +1,6 @@
 import { Box, AppBar, Button, Toolbar, Container, Grid, Stack, Badge } from "@mui/material";
 import React from "react";
+import { ButtonNavBar } from "../../styled/ButtonNavBar/ButtonNavbar";
 
 export const NavBar: React.FC<{}> = () => {
 
@@ -9,25 +10,17 @@ export const NavBar: React.FC<{}> = () => {
             <Toolbar>
                <Container maxWidth="xl" sx={{ my: 2 }}>
                   <Grid container direction="row" justifyContent="flex-end" alignItems="center">
-                     <Grid item>
-                        <Stack spacing={1} direction={"row"}>
-                           <Button sx={{ paddingInline: "10px" }} variant="text" >Sobre mi</Button>
-                        </Stack>
+                     <Grid item mr={1}>
+                        <ButtonNavBar code="[ 0 ]" tag="Sobre mi" />
                      </Grid>
-                     <Grid item>
-                        <Stack spacing={1} direction={"row"}>
-                           <Button sx={{ paddingInline: "10px" }} variant="text" >Proyectos</Button>
-                        </Stack>
+                     <Grid item mr={1}>
+                        <ButtonNavBar code="[ 1 ]" tag="Proyectos" />
                      </Grid>
-                     <Grid item>
-                        <Stack spacing={1} direction={"row"}>
-                           <Button sx={{ paddingInline: "10px" }} variant="text" >Tecnologias</Button>
-                        </Stack>
+                     <Grid item mr={1}>
+                        <ButtonNavBar code="[ 2 ]" tag="Tecnologías" />
                      </Grid>
-                     <Grid item>
-                        <Stack spacing={1} direction={"row"}>
-                           <Button sx={{ paddingInline: "10px" }} variant="text" >Contacto</Button>
-                        </Stack>
+                     <Grid item mr={1}>
+                        <ButtonNavBar code="[ 3 ]" tag="acerca de" />
                      </Grid>
                   </Grid>
                </Container>

@@ -11,7 +11,7 @@ export const Terminal: React.FC<{}> = () => {
             <div style={{
                backgroundColor: "#17202A",
                border: "solid 3px #D32F2F",
-               height: "60rem",
+               height: "50rem",
                width: "60%",
                marginTop: "2rem",
                borderRadius: "18px"

@@ -1,0 +1,45 @@
+.div {
+   display: flex;
+   width: 100%;
+   height: 100%;
+   background-color: #172a45;
+   align-items: center;
+   padding: 0px;
+}
+
+.tag {
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-right: 8px;
+   font-size: 1rem;
+   color: #00ff7f;
+}
+
+.text {
+   font-weight: 500;
+   margin-block: 0px;
+   font-size: 1.2rem;
+   color: yellow;
+}
+
+.button {
+   display: flex;
+   align-items: center;
+   color: #00ff7f;
+   background-color: #172a45;
+   font-family: "Chakra Petch";
+   height: 2.5rem;
+   border-style: none;
+   border-radius: 5px;
+}
+
+.button:hover {
+   box-shadow: inset 0 0 40px rgba(255, 255, 0, 0.3);
+   text-shadow: 1px 1px 2px #427388;
+   transition-duration: 0.4s;
+}
+
+.button:active {
+   background-color: rgba(255, 255, 0, 0.8);
+   transition-duration: 0.5s;
+}
