@@ -7,7 +7,7 @@ type ThemeProp = {
 
 export enum themePalette{
     BG = "#172a45",
-    FONT_GLOBAL = 'Bebas Neue',
+    FONT_GLOBAL = 'Chakra Petch',
     ERROR_MAIN ="#f44336",
     BG_ERROR_MAIN = "rgba(244,67,54,0.2)",
     SUCCESS_MAIN = "#66BB6A",

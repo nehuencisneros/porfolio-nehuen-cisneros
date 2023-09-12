@@ -8,10 +8,25 @@ export const NavBar: React.FC<{}> = () => {
          <AppBar position="sticky" sx={{ backgroundColor: "#172a45", backgroundImage: "none" }}>
             <Toolbar>
                <Container maxWidth="xl" sx={{ my: 2 }}>
-                  <Grid container direction="row" justifyContent="space-between" alignItems="center">
+                  <Grid container direction="row" justifyContent="flex-end" alignItems="center">
                      <Grid item>
                         <Stack spacing={1} direction={"row"}>
-                           <Button sx={{ paddingInline: "10px" }} variant="outlined" >Sing In</Button>
+                           <Button sx={{ paddingInline: "10px" }} variant="text" >Sobre mi</Button>
+                        </Stack>
+                     </Grid>
+                     <Grid item>
+                        <Stack spacing={1} direction={"row"}>
+                           <Button sx={{ paddingInline: "10px" }} variant="text" >Proyectos</Button>
+                        </Stack>
+                     </Grid>
+                     <Grid item>
+                        <Stack spacing={1} direction={"row"}>
+                           <Button sx={{ paddingInline: "10px" }} variant="text" >Tecnologias</Button>
+                        </Stack>
+                     </Grid>
+                     <Grid item>
+                        <Stack spacing={1} direction={"row"}>
+                           <Button sx={{ paddingInline: "10px" }} variant="text" >Contacto</Button>
                         </Stack>
                      </Grid>
                   </Grid>
