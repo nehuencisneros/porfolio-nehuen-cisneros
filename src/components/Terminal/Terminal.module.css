@@ -7,7 +7,7 @@
    width: 60%;
 }
 
-.terminal{
+.pestanaContainer{
    margin-top: 2rem;
    background-color: #D32F2F;
    height: 3rem;
@@ -38,4 +38,33 @@
    height: 45rem;
    border-bottom-left-radius: 18px;
    border-bottom-right-radius: 18px;
+   padding-top: 1rem;
+}
+
+.name{
+   font-family: "Press Start 2P";
+   font-weight: 400;
+   font-size: 50px;
+   margin:0px;
+   color: #D32F2F;
+}
+.name1{
+   font-family: "Press Start 2P";
+   font-weight: 400;
+   font-size: 30px;
+   margin:0px;
+   color: #D32F2F;
+}
+
+.compiled{
+   font-family: "Chakra Petch";
+   font-weight: 300;
+   margin: 10px 0px;
+   color: #00ff7f;
+}
+.corte{
+   font-family: "Chakra Petch";
+   font-weight: 300;
+   color: white;
+   margin: 10px 0px;
 }

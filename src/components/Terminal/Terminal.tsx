@@ -10,16 +10,31 @@ export const Terminal: React.FC<{}> = () => {
          <NavBar />
          <div className={style.divContainer}>
             <div className={style.divTerminalContainer}>
-               <div className={style.terminal}>
+
+               <div className={style.pestanaContainer}>
                   <div className={style.pestana}>
                      <h4>Terminal</h4>
-                     <h3>X</h3>
+                     <h3>x</h3>
                   </div>
                </div>
                <div className={style.cajaTerminal}>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "flex-start", paddingInline: "2rem" }}>
+                     <h6 className={style.name1}>{'> ' } </h6>
+                     <h1 className={style.name}>  Nehuen Cisneros</h1>
+                  </div>
+                  <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", paddingInline: "2rem" }}>
+                     <h5 className={style.compiled}>No issues found.</h5>
+                     <h5 className={style.compiled}>Compiled successfully!</h5>
+                     <h5 className={style.corte}>^C</h5>
+                     <h5 className={style.compiled}>Nehuen@Desktop</h5>
+                  </div>
+
                </div>
+
             </div>
          </div>
       </div>
    )
 }
+
+//Nehuen@DESKTOP-1E1A32P MINGW64 ~/Desktop/proyectos/porfolio-nehuen-cisneros

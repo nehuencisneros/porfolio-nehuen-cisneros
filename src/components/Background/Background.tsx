@@ -53,10 +53,10 @@ export const Background: React.FC<{}> = () => {
             },
             particles: {
                color: {
-                  value: "#D32F2F",
+                  value: "#F1C40F",
                },
                links: {
-                  color: "#D32F2F",
+                  color: "#F1C40F",
                   distance: 150,
                   enable: true,
                   opacity: 0.3,
