@@ -7,6 +7,7 @@ import { NavBar } from './components/NavBar/NavBar';
 import { About } from './views/About/About';
 import { Projects } from './views/Projects/Projects';
 import { Techs } from './views/Techs/Techs';
+import { Contact } from './views/Contact/Contact';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/techs" element={<Techs />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );
