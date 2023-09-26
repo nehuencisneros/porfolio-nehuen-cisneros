@@ -29,8 +29,8 @@
    font-family: Chakra Petch;
    justify-content: space-between;
    align-items:center;
-   padding-left: 1rem;
-   padding-right: 0.5rem;
+   padding-left: 0.8rem;
+   padding-right: 0.8rem;
 }
 
 .cajaTerminal{
@@ -60,7 +60,7 @@
 }
 
 .compiled{
-   font-family: "Chakra Petch";
+   font-family: "Press Start 2P";
    font-weight: 300;
    margin: 10px 0px;
    color: #00ff7f;
@@ -72,46 +72,23 @@
    margin: 10px 0px;
 }
 
-.line1 { 
-	position: relative; 
-	float: left;
-	color: #fff;
-   animation: typewritter 8s steps(25) ease-in-out;
-   animation-delay: -8s;
+.commandLine{
+   font-family: "Press Start 2P";
+   font-weight: 100;
+   margin: 10px 2px 0px 0px ;
+   color: #00ff7f;
+   display:inline;
 }
 
-.terminal-text {
-   color: #fff;
-   max-width: fit-content;
+h4{
+   margin: 10px 0px;
+   font-family: "Chakra Petch";
+   font-weight: 100;
 }
 
-@keyframes typewritter {
-   0% {
-      width: 0;
-      height: 0;
-      visibility: hidden;
-   }
-   20% {
-      width: 0;
-      height: 0;
-      visibility: hidden;
-   }
-   25% {
-      width: 25%;
-      height: 1em;
-      visibility: hidden;
-   }
-   30% {
-      width: 50%;
-      height: 1em;
-      visibility: hidden;
-   }
-   50% {
-      width: 75%;
-      height: 1em;
-   }
-   100% {
-      width: 100%;
-      height: 1em;
-   }
+.selects{
+   height: auto;
+   width: 100%;
+   border: solid 1px red;
+   padding-left: 30px;
 }

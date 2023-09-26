@@ -1,0 +1,8 @@
+.button{
+   border-style: none;
+   background-color: transparent;
+   font-family: "Chakra Petch";
+   color: #00ff7f;
+   border-bottom: solid 1px #00ff7f;
+   height: fit-content;
+}
