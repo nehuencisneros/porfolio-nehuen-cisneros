@@ -11,29 +11,24 @@ export const NavBar: React.FC<{}> = () => {
             <Toolbar>
                <Container maxWidth="xl" sx={{ my: 2 }}>
                   <Grid container direction="row" justifyContent="flex-end" alignItems="center">
-                     <Grid item mr={1}>
-                        <Link to={"/"} style={{textDecoration: "none"}}>
-                           <ButtonNavBar code="[ 0 ]" tag="Inicio" />
+                     <Grid item >
+                        <Link to={"/about"} style={{ textDecoration: "none" }}>
+                           <ButtonNavBar code="[ 0 ]" tag="Sobre mi" />
                         </Link>
                      </Grid>
-                     <Grid item mr={1}>
-                        <Link to={"/about"} style={{textDecoration: "none"}}>
-                           <ButtonNavBar code="[ 1 ]" tag="Sobre mi" />
+                     <Grid item >
+                        <Link to={"/projects"} style={{ textDecoration: "none" }}>
+                           <ButtonNavBar code="[ 1 ]" tag="Proyectos" />
                         </Link>
                      </Grid>
-                     <Grid item mr={1}>
-                        <Link to={"/projects"} style={{textDecoration: "none"}}>
-                           <ButtonNavBar code="[ 2 ]" tag="Proyectos" />
+                     <Grid item >
+                        <Link to={"/techs"} style={{ textDecoration: "none" }}>
+                           <ButtonNavBar code="[ 2 ]" tag="Skills" />
                         </Link>
                      </Grid>
-                     <Grid item mr={1}>
-                        <Link to={"/techs"} style={{textDecoration: "none"}}>
-                           <ButtonNavBar code="[ 3 ]" tag="Tecnologías" />
-                        </Link>
-                     </Grid>
-                     <Grid item mr={1}>
-                        <Link to={"/contact"} style={{textDecoration: "none"}}>
-                           <ButtonNavBar code="[ 4 ]" tag="contacto" />
+                     <Grid item >
+                        <Link to={"/contact"} style={{ textDecoration: "none" }}>
+                           <ButtonNavBar code="[ 3 ]" tag="Contacto" />
                         </Link>
                      </Grid>
                   </Grid>
