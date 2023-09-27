@@ -4,7 +4,7 @@
 }
 
 .divTerminalContainer{
-   width: 60%;
+   width: 70%;
 }
 
 .pestanaContainer{
@@ -102,6 +102,8 @@ h4{
    animation-duration: 1s;
    animation-timing-function: linear;
    animation-iteration-count: infinite;
+   font-family: "Chakra Petch";
+   font-size: 18px;
 }
 
 .inputcito:focus{
@@ -111,6 +113,7 @@ h4{
    margin-left: 8px;
    caret-color: yellow;
    animation: none;
+   font-family: "Chakra Petch";
 }
 
 @-moz-keyframes parpadeo{  

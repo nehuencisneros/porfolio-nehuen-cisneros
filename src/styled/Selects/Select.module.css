@@ -21,7 +21,7 @@
    transition-duration: 0.2s;
    .container {
       margin-inline: 00;
-      height: 2px;
+      height: 1px;
       background-color: yellow;
       transition-duration: 0.2s;
    }

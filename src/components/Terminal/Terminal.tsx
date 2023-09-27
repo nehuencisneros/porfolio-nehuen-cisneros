@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./Terminal.module.css";
 import { SelectButton } from "../../styled/Selects/Select";
+import { Link } from "react-router-dom";
 
 export const Terminal: React.FC<{}> = () => {
 
@@ -30,15 +31,23 @@ export const Terminal: React.FC<{}> = () => {
                         Cuento con la paciencia y la dedicación adecuada para encarar y superar los desafíos que este rubro propone, y gracias a
                         haberme desempeñado más de 10 años en tareas relacionadas con la atención al cliente, colaboradores y proveedores,
                         relacionarme con otros e integrarme en grupos no me representa una dificultad. Desde ya, agradezco el tiempo tomado para leer esta minibio.
-                        <SelectButton name={"Saber más sobre mi"} number={null}/></h4>
+                        <Link to={"/about"} style={{ textDecoration: "none" }}><SelectButton name={"Saber más sobre mi"} number={null} /></Link></h4>
                      <h4 className={style.commandLine}>Para empezar escriba o seleccione :</h4>
                      <div className={style.selects}>
-                        <SelectButton name={"sobre mi"} number={" 0 "}/>
-                        <SelectButton name={"proyectos"} number={" 1 "}/>
-                        <SelectButton name={"skills"} number={" 2 "}/>
-                        <SelectButton name={"contacto"} number={" 3 "}/>
+                        <Link to={"/about"} style={{ textDecoration: "none" }}>
+                           <SelectButton name={"sobre mi"} number={" 0 "} />
+                        </Link>
+                        <Link to={"/projects"} style={{ textDecoration: "none" }}>
+                           <SelectButton name={"proyectos"} number={" 1 "} />
+                        </Link>
+                        <Link to={"/techs"} style={{ textDecoration: "none" }}>
+                           <SelectButton name={"skills"} number={" 2 "} />
+                        </Link>
+                        <Link to={"/contact"} style={{ textDecoration: "none" }}>
+                           <SelectButton name={"contacto"} number={" 3 "} />
+                        </Link>
                      </div>
-                     <h5 className={style.compiled}>{'> '} <input className={style.inputcito}></input></h5>
+                     <h4 className={style.compiled}>{'> '} <input className={style.inputcito}></input></h4>
                   </div>
                </div>
             </div>
