@@ -61,7 +61,7 @@
 
 .compiled{
    font-family: "Chakra Petch";
-   font-weight: 300;
+   font-weight: 600;
    margin: 10px 0px;
    color: #00ff7f;
 }
@@ -89,6 +89,44 @@ h4{
 .selects{
    height: auto;
    width: 100%;
-   padding-left: 30px;
+   padding-left: 5REM;
 }
 
+.inputcito{
+   background-color: transparent;
+   border-style: none;
+   margin-left: 8px;
+   border-left: solid 2px yellow;
+   color: yellow;
+   animation-name: parpadeo;
+   animation-duration: 1s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+}
+
+.inputcito:focus{
+   background-color: transparent;
+   outline: none;
+   border-left: solid 2px transparent;
+   margin-left: 8px;
+   caret-color: yellow;
+   animation: none;
+}
+
+@-moz-keyframes parpadeo{  
+   0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+   0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+   0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}

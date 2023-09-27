@@ -21,8 +21,8 @@ export const Terminal: React.FC<{}> = () => {
                      <h1 className={style.name}>Nehuen Cisneros</h1>
                   </div>
                   <div style={{ display: "flex", flexDirection: "column", alignItems: "start", paddingInline: "2rem" }}>
-                     <h5 className={style.compiled}>Compiled successfully!</h5>
-                     <h5 className={style.compiled}>No issues found.</h5>
+                     <h4 className={style.compiled}>Compiled successfully!</h4>
+                     <h4 className={style.compiled}>No issues found.</h4>
                      <h5 className={style.corte}>^C</h5>
                      <h4><h4 className={style.commandLine}>Nehuen@Desktop {'> '}</h4>Soy un meticuloso y responsable desarrollador IT, que a fines de 2021 comenzó su camino estudiando informática.
                         Enfrentarme a un problema y tener la capacidad para resolverlo, es el porqué de haberme volcado a esta rama de la tecnología, y
@@ -30,13 +30,15 @@ export const Terminal: React.FC<{}> = () => {
                         Cuento con la paciencia y la dedicación adecuada para encarar y superar los desafíos que este rubro propone, y gracias a
                         haberme desempeñado más de 10 años en tareas relacionadas con la atención al cliente, colaboradores y proveedores,
                         relacionarme con otros e integrarme en grupos no me representa una dificultad. Desde ya, agradezco el tiempo tomado para leer esta minibio.
-                     </h4>
+                        <SelectButton name={"Saber más sobre mi"} number={null}/></h4>
                      <h4 className={style.commandLine}>Para empezar escriba o seleccione :</h4>
                      <div className={style.selects}>
-                        <SelectButton name={"proyectos"} number={"1"}/>
-                        <SelectButton name={"skills"} number={"2"}/>
-                        <SelectButton name={"contacto"} number={"3"}/>
+                        <SelectButton name={"sobre mi"} number={" 0 "}/>
+                        <SelectButton name={"proyectos"} number={" 1 "}/>
+                        <SelectButton name={"skills"} number={" 2 "}/>
+                        <SelectButton name={"contacto"} number={" 3 "}/>
                      </div>
+                     <h5 className={style.compiled}>{'> '} <input className={style.inputcito}></input></h5>
                   </div>
                </div>
             </div>
