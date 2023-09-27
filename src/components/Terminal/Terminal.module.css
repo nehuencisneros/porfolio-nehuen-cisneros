@@ -60,7 +60,7 @@
 }
 
 .compiled{
-   font-family: "Press Start 2P";
+   font-family: "Chakra Petch";
    font-weight: 300;
    margin: 10px 0px;
    color: #00ff7f;
@@ -73,8 +73,8 @@
 }
 
 .commandLine{
-   font-family: "Press Start 2P";
-   font-weight: 100;
+   font-family: "Chakra Petch";
+   font-weight: 600;
    margin: 10px 2px 0px 0px ;
    color: #00ff7f;
    display:inline;
@@ -89,6 +89,6 @@ h4{
 .selects{
    height: auto;
    width: 100%;
-   border: solid 1px red;
    padding-left: 30px;
 }
+
