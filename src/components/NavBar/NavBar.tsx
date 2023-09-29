@@ -9,7 +9,7 @@ export const NavBar: React.FC<{}> = () => {
       <Box sx={{ flexGrow: 1, backgroundColor: "#172a45" }}>
          <AppBar position="sticky" sx={{ backgroundColor: "#172a45", backgroundImage: "none" }}>
             <Toolbar>
-               <Container maxWidth="xl" sx={{ my: 2 }}>
+               <Container maxWidth="xl" >
                   <Grid container direction="row" justifyContent="flex-end" alignItems="center">
                      <Grid item >
                         <Link to={"/about"} style={{ textDecoration: "none" }}>

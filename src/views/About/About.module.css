@@ -1,0 +1,149 @@
+.divContainer{
+   display: flex; 
+   justify-content: center;
+}
+
+.divTerminalContainer{
+   width: 70%;
+}
+
+.pestanaContainer{
+   display: flex;
+   margin-top: 2rem;
+   background-color: #D32F2F;
+   height: 3rem;
+   padding-top: 0.5rem;
+   border-top-left-radius: 18px;
+   border-top-right-radius: 18px;
+   justify-content: flex-start;
+}
+
+.pestana{
+   display: flex;
+   background:  rgb(75, 85, 95);
+   width: 15%;
+   height: 2.5rem;
+   margin-left: 1.5rem;
+   border-top-left-radius: 9px;
+   border-top-right-radius: 9px; 
+   font-family: Chakra Petch;
+   justify-content: space-between;
+   align-items:center;
+   padding-left: 0.8rem;
+   padding-right: 0.8rem;
+}
+
+.pestana2{
+   display: flex;
+   background: linear-gradient(to bottom right, rgb(34, 44, 64) , rgb(33, 43, 63));
+   width: 15%;
+   font-family: Chakra Petch;
+   margin-left: 0.5rem;
+   justify-content: space-between;
+   align-items:center;
+   border-top-left-radius: 9px;
+   border-top-right-radius: 9px; 
+   padding-left: 0.8rem;
+   padding-right: 0.8rem;
+}
+
+.cajaTerminal{
+   background: linear-gradient(to bottom right, rgb(35, 45, 65) , rgb(20, 25, 45));
+   border-right: solid 3px #D32F2F;
+   border-left: solid 3px #D32F2F;
+   border-bottom: solid 3px #D32F2F;
+   height: 45rem;
+   border-bottom-left-radius: 18px;
+   border-bottom-right-radius: 18px;
+   padding-top: 1rem;
+}
+
+.name{
+   font-family: "Press Start 2P";
+   font-weight: 400;
+   font-size: 50px;
+   margin:0px;
+   color: #D32F2F;
+}
+.name1{
+   font-family: "Press Start 2P";
+   font-weight: 400;
+   font-size: 30px;
+   margin:0px;
+   color: #D32F2F;
+}
+
+.compiled{
+   font-family: "Chakra Petch";
+   font-weight: 600;
+   margin: 10px 0px;
+   color: #00ff7f;
+}
+.corte{
+   font-family: "Chakra Petch";
+   font-weight: 300;
+   color: white;
+   margin: 10px 0px;
+}
+
+.commandLine{
+   font-family: "Chakra Petch";
+   font-weight: 600;
+   margin: 10px 2px 0px 0px ;
+   color: #00ff7f;
+   display:inline;
+}
+
+h4{
+   margin: 10px 0px;
+   font-family: "Chakra Petch";
+   font-weight: 100;
+}
+
+.selects{
+   height: auto;
+   width: 100%;
+   padding-left: 5REM;
+}
+
+.inputcito{
+   background-color: transparent;
+   border-style: none;
+   margin-left: 8px;
+   border-left: solid 2px yellow;
+   color: yellow;
+   animation-name: parpadeo;
+   animation-duration: 1s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   font-family: "Chakra Petch";
+   font-size: 18px;
+}
+
+.inputcito:focus{
+   background-color: transparent;
+   outline: none;
+   border-left: solid 2px transparent;
+   margin-left: 8px;
+   caret-color: yellow;
+   animation: none;
+   font-family: "Chakra Petch";
+}
+
+@-moz-keyframes parpadeo{  
+   0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+   0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+   0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
